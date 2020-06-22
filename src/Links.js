@@ -5,7 +5,7 @@ function Links() {
     <div className="App-icons">
       <div className="cv-icon">
         <a
-          href="https://drive.google.com/file/d/1hQRtNkrUFEjs4_O8APZa8QPipd03y4OX/view"
+          href="https://drive.google.com/file/d/1yXSWduAKEAjkrsbcS6tTfXcmaQYeNd6I/view?usp=sharing"
           target="blank"
           title="download CV"
         >

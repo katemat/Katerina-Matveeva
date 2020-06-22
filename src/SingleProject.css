@@ -9,9 +9,9 @@
 } */
 
 .SingleProject-image img {
-  width: 500px;
-  height: 350px;
-  margin: 40px;
+  width: 600px;
+  height: 450px;
+  margin: 20px;
 }
 
 .SingleProject-details {
@@ -29,8 +29,7 @@
   grid-template-columns: 5fr 0.5fr;
   justify-content: left;
   align-items: center;
-  background-color: rgb(244, 242, 242);
-  /* font-family: "Baskervville", serif; */
+  background: linear-gradient(to left, rgb(195, 180, 198), rgb(244, 242, 242));
   box-shadow: 2px 5px 10px lightgrey;
 }
 

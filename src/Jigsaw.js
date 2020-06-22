@@ -54,9 +54,7 @@ class SortableComponent extends React.Component {
   }
 
   handleShuffle = () => {
-    console.log(this.state.items);
     this.setState(({ items }) => ({ items: this.shuffle(items) }));
-    console.log(this.state.items);
   };
   handleAutoSolve = () => {
     this.setState(() => ({
@@ -76,7 +74,7 @@ class SortableComponent extends React.Component {
   render() {
     return (
       <div>
-        <h2>Take a break! Try to solve Jigsaw Puzzle. Have Fun!</h2>
+        <h2>Take a break! Try to solve Jigsaw Puzzle. </h2>
         <div className="jigsaw-puzzle">
           <div className="imgList">
             <SortableList

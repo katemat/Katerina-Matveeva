@@ -1,26 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProjectsDetails from "./ProjectsDetails";
 import "./SingleProject.css";
 import Links from "./Links";
 import { Link } from "react-router-dom";
 
 function SingleProject(props = {}) {
-  let data = ProjectsDetails;
-  let project = data[props.match.params.id];
+  let project = ProjectsDetails[props.match.params.id];
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   console.log(project);
 
   return (
     <div className="SingleProject-container">
       <nav className="singleProject-nav">
         <div className="singleProject-nav-name" title="back to Home Page">
-          <Link to="/">Katerina M, Software Developer</Link>
+          <Link to="/">⏎ Back</Link>
         </div>
         <div>
           <Links />
         </div>
       </nav>
-      <h1>Project {project.title} </h1>
+      <h1>Project '{project.title}' </h1>
       <div className="SingleProject-image">
         <img src={project.image} alt="screenshot" />
       </div>

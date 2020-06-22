@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 20px;
+  margin-bottom: 5px;
   margin-top: 10%;
-  min-height: calc(100vh - 50px);
 }
 
 aside img {

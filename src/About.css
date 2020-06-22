@@ -1,0 +1,51 @@
+.About-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px;
+  margin-top: 10%;
+  min-height: calc(100vh - 50px);
+}
+
+aside img {
+  width: 450px;
+  height: 400px;
+}
+
+main h3 {
+  font-family: "Baskervville", serif;
+  font-style: italic;
+}
+
+main p {
+  font-size: 1.5em;
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+.btn-wrapper {
+  grid-column: 1 / -1;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.cv-btn {
+  height: 70px;
+  width: 200px;
+  border-radius: 12px;
+  font-size: 1.75em;
+  border: 1px solid grey;
+  background: radial-gradient(rgb(236, 207, 242), grey);
+}
+.cv-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(rgb(130, 128, 128), rgb(245, 244, 244));
+}
+
+@media (max-width: 600px) {
+  .About-container {
+    display: block;
+    text-align: center;
+  }
+}
+/* will add some extra style later */

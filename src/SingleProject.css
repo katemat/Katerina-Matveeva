@@ -1,0 +1,48 @@
+.SingleProject-container {
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+/* .SingleProject-container h1 {
+  grid-column: 1 / -1;
+} */
+
+.SingleProject-image img {
+  width: 500px;
+  height: 350px;
+  margin: 40px;
+}
+
+.SingleProject-details {
+  text-align: left;
+  font-size: 1.5em;
+  margin: 20px;
+}
+.singleProject-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 80px;
+  display: grid;
+  grid-template-columns: 5fr 0.5fr;
+  justify-content: left;
+  align-items: center;
+  background-color: rgb(244, 242, 242);
+  /* font-family: "Baskervville", serif; */
+  box-shadow: 2px 5px 10px lightgrey;
+}
+
+.singleProject-nav-name {
+  padding: 17px 20px;
+  text-align: left;
+}
+
+.singleProject-nav a {
+  text-decoration: none;
+  font-size: 130%;
+  font-weight: bold;
+  color: rgb(62, 61, 61);
+  text-align: left;
+}

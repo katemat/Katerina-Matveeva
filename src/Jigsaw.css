@@ -1,0 +1,65 @@
+.squares {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.element-list div {
+  display: inline-flex;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.sqr-img {
+  width: 200px;
+}
+
+.list-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 40px;
+  grid-gap: 0;
+  justify-content: center;
+  width: 90%;
+}
+
+/* .testingList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  grid-gap: 0;
+  justify-content: center;
+} */
+
+.imgList img {
+  width: 100%;
+  border: 1px solid lightgray;
+  margin: -1px;
+}
+
+.jigsaw-puzzle {
+  display: grid;
+  grid-template-columns: 3.5fr 1fr;
+  justify-content: center;
+}
+
+.original-img {
+  display: inline-block;
+  width: 250px;
+}
+.original-img img {
+  width: 200px;
+  height: 150px;
+}
+
+.btn-wrapper {
+  justify-content: space-evenly;
+}
+
+.auto-btn,
+.shuffle-btn {
+  margin: 10px;
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  background: radial-gradient(rgb(236, 207, 242), grey);
+}

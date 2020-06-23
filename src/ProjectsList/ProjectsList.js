@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectsDetails from "./ProjectsDetails";
+import ProjectsDetails from "../ProjectsDetails";
 import "./ProjectsList.css";
 import { Link } from "react-router-dom";
 

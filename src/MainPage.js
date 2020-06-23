@@ -1,8 +1,8 @@
 import React from "react";
-import Projects from "./Projects";
-import About from "./About";
-import Home from "./Home";
-import NavBar from "./NavBar";
+import Projects from "./Projects/Projects";
+import About from "./About/About";
+import Home from "./Home/Home";
+import NavBar from "./NavBar/NavBar";
 
 function MainPage() {
   return (

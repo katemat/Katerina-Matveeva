@@ -10,7 +10,6 @@ function SingleProject(props = {}) {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
-  console.log(project);
 
   return (
     <div className="SingleProject-container">
@@ -18,7 +17,7 @@ function SingleProject(props = {}) {
         <div className="singleProject-nav-name" title="back to Home Page">
           <Link to="/">⏎ Back</Link>
         </div>
-        <div>
+        <div className="singleProject-links">
           <Links />
         </div>
       </nav>

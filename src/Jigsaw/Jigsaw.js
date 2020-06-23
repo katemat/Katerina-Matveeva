@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import {
   SortableContainer,
   SortableElement,
@@ -7,7 +7,7 @@ import {
 import "./Jigsaw.css";
 
 const SortableItem = SortableElement(({ value }) => (
-  <img className="sqr-img" src={value} />
+  <img className="sqr-img" src={value} alt="part of original" />
 ));
 
 const SortableList = SortableContainer(({ items }) => {
@@ -91,6 +91,7 @@ class SortableComponent extends React.Component {
               className="small-img"
               src="/lauren-mancke-aOC7TSLb1o8-unsplash.jpg"
               size="800"
+              alt="original"
             />
             <div className="btn-wrapper">
               <button className="auto-btn" onClick={this.handleAutoSolve}>

@@ -135,6 +135,7 @@ footer div {
   .App-nav {
     display: block;
     text-align: center;
+    font-size: 0.75em;
   }
   .App-name {
     text-align: center;
@@ -149,6 +150,7 @@ footer div {
     padding-left: 1%;
     position: relative;
     bottom: 0;
+    width: 100%;
   }
 
   .App-img {
@@ -160,6 +162,7 @@ footer div {
 
   .Home-wrapper {
     min-height: calc(100vh - 80px);
+    width: 100%;
   }
 }
 
@@ -167,7 +170,6 @@ footer div {
   color: rgb(34, 34, 77);
   font-weight: bold;
   text-shadow: 3px 4px 5px rgb(147, 147, 210);
-  /* font-size: 1.3em; */
 }
 
 .App-nav {
@@ -184,9 +186,6 @@ footer div {
   font-family: "Baskervville", serif;
   box-shadow: 2px 5px 10px lightgrey;
 }
-/* .nav-name {
-  margin: auto 0;
-} */
 
 .nav-list {
   display: flex;

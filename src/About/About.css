@@ -61,4 +61,10 @@ main p {
     background: radial-gradient(rgb(236, 207, 242), grey);
   }
 }
-/* will add some extra style later */
+
+@media (max-width: 800px) {
+  .About-container {
+    display: block;
+    text-align: center;
+  }
+}

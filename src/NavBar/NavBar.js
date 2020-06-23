@@ -1,6 +1,7 @@
 import React from "react";
 import Scrollspy from "react-scrollspy";
 import Links from "../Links";
+import "./NavBar.css";
 
 function NavBar() {
   return (

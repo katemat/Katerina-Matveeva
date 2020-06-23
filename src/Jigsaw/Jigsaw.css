@@ -1,21 +1,15 @@
-.squares {
-  display: flex;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
-
-.element-list div {
-  display: inline-flex;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
-
 .sqr-img {
   width: 200px;
+}
+
+.message {
+  font-size: 3vw;
 }
 
 .list-img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 5%0px;
+  margin: 0 5%;
   grid-gap: 0;
   justify-content: center;
   width: 90%;
@@ -29,17 +23,41 @@
 
 .jigsaw-puzzle {
   display: grid;
-  grid-template-columns: 3.5fr 1fr;
+  grid-template-columns: 4fr 1fr;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .jigsaw-puzzle {
+    display: block;
+    text-align: center;
+  }
+  .message {
+    font-size: 4vw;
+  }
+
+  .original-img span {
+    margin: 5%;
+  }
+  .small-img {
+    max-width: 200px;
+  }
+  .btn-wrapper {
+    display: inline-block;
+  }
+  .auto-btn,
+  .shuffle-btn {
+    display: inline-block;
+  }
 }
 
 .original-img {
   display: inline-block;
-  width: 250px;
+  /* width: 90%; */
 }
 .original-img img {
-  width: 200px;
-  height: 150px;
+  width: 80%;
+  /* height: 150px; */
 }
 
 .btn-wrapper {

@@ -74,7 +74,7 @@ class SortableComponent extends React.Component {
   render() {
     return (
       <div>
-        <h2>Take a break! Try to solve Jigsaw Puzzle. </h2>
+        <h2 className="message">Take a break! Try to solve Jigsaw Puzzle. </h2>
         <div className="jigsaw-puzzle">
           <div className="imgList">
             <SortableList
@@ -84,15 +84,17 @@ class SortableComponent extends React.Component {
             />
           </div>
           <div className="original-img">
-            <span>
-              <strong>original image</strong>
-            </span>
-            <img
-              className="small-img"
-              src="/lauren-mancke-aOC7TSLb1o8-unsplash.jpg"
-              size="800"
-              alt="original"
-            />
+            <div>
+              <span>
+                <strong>original image</strong>
+              </span>
+              <img
+                className="small-img"
+                src="/lauren-mancke-aOC7TSLb1o8-unsplash.jpg"
+                size="800"
+                alt="original"
+              />
+            </div>
             <div className="btn-wrapper">
               <button className="auto-btn" onClick={this.handleAutoSolve}>
                 Solve for Me

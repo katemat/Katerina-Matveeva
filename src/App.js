@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./NavBar/NavBar";
 import { Switch, Route } from "react-router-dom";
 import SingleProject from "./SingleProject";
 import MainPage from "./MainPage";

@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import "./Home.css";
 import SortableComponent from "../Jigsaw/Jigsaw";
 
 export default function Home() {

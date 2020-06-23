@@ -39,13 +39,26 @@ main p {
 }
 .cv-btn:hover {
   cursor: pointer;
-  background: linear-gradient(rgb(130, 128, 128), rgb(245, 244, 244));
+  background: radial-gradient(grey, rgb(236, 207, 242));
 }
 
 @media (max-width: 600px) {
   .About-container {
     display: block;
     text-align: center;
+  }
+
+  aside img {
+    max-width: 350px;
+    height: 300px;
+  }
+  .cv-btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 12px;
+    font-size: 1.25em;
+    border: 1px solid grey;
+    background: radial-gradient(rgb(236, 207, 242), grey);
   }
 }
 /* will add some extra style later */

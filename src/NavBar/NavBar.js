@@ -29,7 +29,7 @@ function NavBar() {
         <div className="nav-item">
           <li>
             <a className="nav-link" href="#projects">
-              My Projects
+              Projects
             </a>
           </li>
         </div>

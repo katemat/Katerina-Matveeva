@@ -51,10 +51,15 @@
     margin: 0;
   }
   .SingleProject-image img {
-    width: 100%;
+    max-width: 300px;
+    max-height: 270px;
+
     margin: 0;
   }
   .SingleProject-details {
+    text-align: left;
+    font-size: 1.2em;
+    margin: 20px;
     width: 90%;
   }
   .singleProject-links {

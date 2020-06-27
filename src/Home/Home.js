@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./Home.css";
-import SortableComponent from "../Jigsaw/Jigsaw";
+// import SortableComponent from "../Jigsaw/Jigsaw";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <div className="motto">
         <h1>Making great things possible</h1>
       </div>
-      <SortableComponent />
+      {/* <SortableComponent /> */}
     </div>
   );
 }

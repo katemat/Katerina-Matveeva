@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import ProjectsDetails from "./ProjectsDetails";
+import ProjectsDetails from "../../ProjectsDetails";
 import "./SingleProject.css";
-import Links from "./Links";
+// import Links from "../Links";
 import { Link } from "react-router-dom";
 
 function SingleProject(props = {}) {
@@ -17,9 +17,7 @@ function SingleProject(props = {}) {
         <div className="singleProject-nav-name" title="back to Home Page">
           <Link to="/">⏎ Back</Link>
         </div>
-        <div className="singleProject-links">
-          <Links />
-        </div>
+        <div className="singleProject-links">{/* <Links /> */}</div>
       </nav>
       <h1>Project '{project.title}' </h1>
       <div className="SingleProject-image">

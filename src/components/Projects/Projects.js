@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div id="projects">
       <div className="Projects-container">
-        <h1>My Projects</h1>
+        {/* <h1>My Projects</h1> */}
         <ProjectsList />
       </div>
     </div>

@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
-import "./NavBar/NavBar";
+// import "./NavBar/NavBar";
 import { Switch, Route } from "react-router-dom";
-import SingleProject from "./SingleProject";
+import SingleProject from "./components/SingleProject/SingleProject";
 import MainPage from "./MainPage";
+// import Home from "./components/Home/Home";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div>
         <Switch>
           <Route exact path="/" render={() => <MainPage />} />
+          {/* <Route exact path="/" render={() => <Home />} /> */}
 
           <Route
             exact

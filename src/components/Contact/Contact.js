@@ -1,5 +1,4 @@
 import React from "react";
-// import SocialLinks from "./components/SocialLinks/SocialLinks";
 import "./Contact.css";
 
 function Contact() {

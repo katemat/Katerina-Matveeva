@@ -5,7 +5,7 @@ import Home from "./components/Home/Home";
 import NavBar from "./components/NavBar/NavBar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Backdrop from "./components/Backdrop/Backdrop";
-import Contact from "./Contact";
+import Contact from "./components/Contact/Contact";
 
 class MainPage extends React.Component {
   state = {

@@ -1,3 +1,8 @@
+.ProjectsList {
+  background: linear-gradient(rgb(244, 240, 240), rgb(204, 166, 211));
+  padding-top: 60px;
+}
+
 .ProjectsList-wrapper {
   margin: 0;
   display: grid;
@@ -5,10 +10,6 @@
   grid-gap: 8px;
   width: 100%;
   justify-content: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-image: url(/images/jasper-wilde-Om51NdOhNX4-unsplash.jpg); */
-  background: linear-gradient(white, rgb(238, 218, 241));
   padding-bottom: 30px;
 }
 

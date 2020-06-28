@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import NavBar from "./components/NavBar/NavBar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Backdrop from "./components/Backdrop/Backdrop";
+import Contact from "./Contact";
 
 class MainPage extends React.Component {
   state = {
@@ -36,6 +37,7 @@ class MainPage extends React.Component {
         <Home />
         <About />
         <Projects />
+        <Contact />
       </div>
     );
   }

@@ -4,6 +4,7 @@
   margin: 20px;
   margin-bottom: 5px;
   margin-top: 10%;
+  padding: 70px 20px;
 }
 
 aside img {
@@ -42,10 +43,11 @@ main p {
   background: radial-gradient(grey, rgb(236, 207, 242));
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .About-container {
     display: block;
     text-align: center;
+    margin: 0 auto;
   }
 
   aside img {
@@ -62,9 +64,9 @@ main p {
   }
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .About-container {
     display: block;
     text-align: center;
   }
-}
+} */

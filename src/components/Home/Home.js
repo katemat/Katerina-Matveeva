@@ -13,9 +13,10 @@ export default function Home() {
         <div className="Home-intro">
           <h2>Hi, I'm Katerina</h2>
           <div className="Home-intro-div">
-            Software Developer
+            Software Developer who knows she can outwork the rest
             <p>
-              Ready to dive into development world bringing new ideas to life
+              I'm ready to dive into development world bringing new ideas to
+              life
             </p>
           </div>
         </div>

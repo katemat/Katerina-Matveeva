@@ -6,7 +6,7 @@ const ProjectsDetails = [
     git: "https://github.com/katemat/ATM-GA23",
     solution_url: "https://katemat.github.io/ATM-GA23/",
     description:
-      "This is one of my mini-project that I created to practice some skills that I was taught in class, such as DOM manipulation",
+      "This is one of my project that I created to practice some skills that I was taught in class, such as DOM manipulation",
     technologies: "HTML, CSS, Vanilla Javascript",
     challenges: "great experience using CSS and DOM manipulation",
     username: "not required",

@@ -7,13 +7,12 @@ body {
   width: 100%;
   overflow-x: hidden;
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 .App {
   text-align: center;
-  /* font-family: "Tangerine", cursive; */
   font-family: "Baskervville", serif;
-  /* background: linear-gradient(white, rgb(238, 218, 241)); */
 }
 
 footer {

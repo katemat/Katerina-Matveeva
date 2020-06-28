@@ -1,7 +1,17 @@
 .SingleProject-container {
   justify-content: center;
-  margin-top: 100px;
-  margin-left: 30px;
+  /* margin-top: 100px; */
+  /* margin-left: 30px; */
+  padding-top: 70px;
+  padding-bottom: 0;
+  /* background-color: rgb(226, 198, 233); */
+  background-image: url("/public/images/pawel-czerwinski-ncgbTwIZhNU-unsplash.jpg");
+  height: 100%;
+}
+
+.SingleProject-wrapper {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .SingleProject-image img {
@@ -13,20 +23,7 @@
 .SingleProject-details {
   text-align: left;
   font-size: 1.5em;
-  margin: 20px;
-}
-.singleProject-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 80px;
-  display: grid;
-  grid-template-columns: 5fr 0.5fr;
-  justify-content: left;
-  align-items: center;
-  background: linear-gradient(to left, rgb(195, 180, 198), rgb(244, 242, 242));
-  box-shadow: 2px 5px 10px lightgrey;
+  padding-bottom: 50px;
 }
 
 .singleProject-nav-name {
@@ -65,4 +62,18 @@
   .singleProject-links {
     margin-right: 5px;
   }
+}
+
+.singleProject-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  box-shadow: 2px 3px 10px lightgrey;
+  background-color: rgb(230, 227, 227);
+  border-bottom: 1px solid lightgray;
+  font-family: "Tangerine", cursive;
+  z-index: 1;
+  font-size: 1.5rem;
 }

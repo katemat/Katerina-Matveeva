@@ -13,19 +13,12 @@
   font-weight: lighter;
   color: rgb(73, 73, 73);
   text-shadow: 5px 5px 8px rgb(196, 193, 193);
-  /* position: absolute;
-  top: 80px;
-  left: 10%; */
   padding-top: 80px;
   margin: 0 auto;
   text-align: center;
 }
 
 .motto h1 {
-  /* margin-top: 100px; */
-  /* position: fixed;
-  top: 60px;
-  left: 10%; */
   font-weight: lighter;
   font-size: 4rem;
   color: rgb(128, 37, 37);
@@ -38,15 +31,18 @@
   justify-content: left;
   font-size: 1.5rem;
   text-align: left;
+  text-shadow: 1px 1px 1px white;
 }
 .Home-intro-div {
   width: 400px;
   margin-top: 30px;
-  color: aliceblue;
+  color: white;
   font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.75rem;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 640px) {
   .motto h1 {
     font-size: 2rem;
     text-align: center;
@@ -55,4 +51,24 @@
   .Home-wrapper {
     width: 100vw;
   }
+  .Home-intro-div {
+    width: 300px;
+    text-align: left;
+    margin-top: 30px;
+    /* font-size: 1.6rem; */
+    /* color: white;
+    font-weight: bold;
+    box-shadow: none; */
+  }
 }
+/* @media (max-width: 768px) {
+  .Home-intro-div {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 882px) {
+  .Home-intro-div {
+    font-size: 1.35rem;
+  }
+} */

@@ -1,122 +1,3 @@
-/* .App-nav {
-  width: 100vw;
-  height: 3.5em;
-  z-index: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  font-family: "Baskervville", serif;
-  box-shadow: 2px 3px 10px lightgrey;
-  font-size: 1.2rem;
-  font-weight: bold;
-  background-color: rgb(230, 227, 227);
-  border-bottom: 1px solid lightgray;
-}
-.App-nav a {
-  text-decoration: none;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 15px;
-  font-family: "Baskervville", serif;
-  color: rgb(62, 61, 61);
-  font-weight: 100;
-  transition: 0.5s ease-in-out;
-}
-
-.App-nav a:hover {
-  transform: scale(1.25);
-  color: rgb(128, 37, 37);
-  text-shadow: 2px 3px 5px rgb(117, 117, 228);
-}
-
-.App-icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: center;
-}
-
-.App-icons a {
-  text-decoration: none;
-  color: rgb(19, 5, 58);
-  cursor: pointer;
-  transition: 0.4s ease-in-out;
-}
-
-.App-icons a:hover {
-  color: rgb(33, 6, 203);
-}
-
-.cv-icon,
-.github-icon,
-.linkedin-icon {
-  padding-top: 8px;
-}
-.cv-icon:hover,
-.github-icon:hover,
-.linkedin-icon:hover {
-  transform: scale(1.5);
-}
-
-.is-current {
-  color: rgb(128, 37, 37);
-  text-shadow: 2px 3px 5px rgb(117, 117, 228);
-}
-
-.nav-list {
-  display: grid;
-  grid-template-columns: 4fr repeat(3, 1fr) 0.5fr;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  list-style: none;
-  padding-bottom: 15px;
-  padding-left: 0;
-  margin: auto 0;
-}
-
-.nav-link {
-  display: inline-block;
-  color: inherit;
-  text-decoration: none;
-  font-size: 1.5em;
-}
-.nav-name {
-  text-align: right;
-}
-@media (max-width: 600px) {
-  .App-nav {
-    display: flex;
-  }
-  .nav-name {
-    margin-left: 5px;
-  }
-  .nav-link {
-    color: inherit;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-  .nav-name {
-    font-size: 1rem;
-  }
-}
-@media (max-width: 360px) {
-  .App-nav {
-    height: fit-content;
-    text-align: center;
-  }
-  .nav-list {
-    grid-template-columns: none;
-    justify-content: center;
-  }
-  .nav-name {
-    margin-left: 3px;
-  }
-  .nav-link {
-    font-size: 1rem;
-  }
-} */
-
 .NavBar {
   position: fixed;
   top: 0;
@@ -127,6 +8,7 @@
   background-color: rgb(230, 227, 227);
   border-bottom: 1px solid lightgray;
   font-family: "Tangerine", cursive;
+  z-index: 1;
 }
 
 .NavBar__navigation {
@@ -136,7 +18,7 @@
   margin: 0;
 }
 .NavBar__logo {
-  margin-left: 0.5rem;
+  margin-left: 1rem;
   text-align: left;
 }
 
@@ -170,9 +52,7 @@
 }
 
 .NavBar_navigation-items li {
-  padding: 0 0.5rem;
-  /* font-size: 5em; */
-  /* font-size: 1.5rem; */
+  padding: 0 1rem;
 }
 
 .NavBar_navigation-items a:hover,
@@ -181,11 +61,42 @@
   text-shadow: 2px 3px 5px rgb(117, 117, 228);
 }
 
+.SocialLinks-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  font-size: 1em;
+}
+
+.SocialLinks-icons a {
+  text-decoration: none;
+  color: rgb(19, 5, 58);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  font-size: 1em;
+  padding-left: 3px;
+  padding-right: 10px;
+  padding-top: 3px;
+}
+
+.SocialLinks-icons a:hover {
+  color: rgb(33, 6, 203);
+}
+
+.cv-icon,
+.github-icon,
+.linkedin-icon {
+  padding-top: 3px;
+}
+.cv-icon:hover,
+.github-icon:hover,
+.linkedin-icon:hover {
+  transform: scale(1.5);
+}
+
 @media (max-width: 640px) {
   .NavBar_navigation-items {
-    display: none;
-  }
-  .NavBar__logo {
     display: none;
   }
 }

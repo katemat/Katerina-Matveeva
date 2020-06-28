@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function ProjectsList() {
   let data = ProjectsDetails;
   return (
-    <div>
+    <div className="ProjectsList">
       <h1>My Projects</h1>
 
       <div className="ProjectsList-wrapper">

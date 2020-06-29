@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 // import "../App.css";
-import "./Home.css";
+import './Home.css';
 // import "../About/About";
 // import Scrollspy from "react-scrollspy";
 // import Links from "../Links";
@@ -13,11 +13,8 @@ export default function Home() {
         <div className="Home-intro">
           <h2>Hi, I'm Katerina</h2>
           <div className="Home-intro-div">
-            Software Developer who knows she can outwork the rest
-            <p>
-              I'm ready to dive into development world bringing new ideas to
-              life
-            </p>
+            Software Developer who knows she can outwork the rest.
+            <p>Creative problem solver, team player and tech enthusiast</p>
           </div>
         </div>
       </div>

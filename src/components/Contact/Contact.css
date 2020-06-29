@@ -17,7 +17,7 @@
   transform: translate(-50%, -50%);
 }
 
-.linkedin-link a {
+.linkedin-link {
   text-decoration: none;
   color: rgb(72, 28, 133);
   margin: 0;
@@ -38,13 +38,14 @@
 }
 
 .contact-offer {
-  font-size: 1.75rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: rgb(128, 37, 37);
   text-shadow: 2px 2px 3px lightgrey;
   margin: 0;
   padding: 20px;
   padding-bottom: 10px;
+  white-space: pre;
 }
 .contact-offer:first-child {
   padding-top: 70px;
@@ -52,6 +53,17 @@
 
 .linkedin-link {
   margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .contact-offer:first-child {
+    padding-top: 30px;
+  }
+  .contact-offer {
+    font-size: 1.75rem;
+    /* margin-top: 0; */
+    padding: 10px;
+  }
 }
 
 @media (max-width: 640px) {

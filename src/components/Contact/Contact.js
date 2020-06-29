@@ -1,5 +1,5 @@
-import React from "react";
-import "./Contact.css";
+import React from 'react';
+import './Contact.css';
 
 function Contact() {
   return (
@@ -11,19 +11,18 @@ function Contact() {
       />
       <div className="Contact-container">
         <p className="contact-offer">
-          I would be happy to meet you for coffee or tea{" "}
+          I would be happy to meet you for coffee or tea{' '}
         </p>
-        <p className="contact-offer">
+        <div className="contact-offer">
           Otherwise, I'd love to hear from you via
-          <p className="linkedin-link">
-            <a
-              href="https://www.linkedin.com/in/katerina-matveeva/"
-              target="blank"
-            >
-              LinkedIn
-            </a>
-          </p>
-        </p>
+          <a
+            className="linkedin-link"
+            href="https://www.linkedin.com/in/katerina-matveeva/"
+            target="blank"
+          >
+            <p>LinkedIn</p>
+          </a>
+        </div>
         <div className="contact-links">
           <a
             href="https://drive.google.com/file/d/1yXSWduAKEAjkrsbcS6tTfXcmaQYeNd6I/view?usp=sharing"

@@ -7,13 +7,23 @@
   padding: 70px 20px;
 }
 
+.About-newChapter {
+  grid-column: 1/-1;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.About-newChapter h3 {
+  text-align: center;
+}
+
 aside img {
   width: 450px;
   height: 400px;
 }
 
 main h3 {
-  font-family: "Baskervville", serif;
+  font-family: 'Baskervville', serif;
   font-style: italic;
 }
 
@@ -31,16 +41,17 @@ main p {
 }
 
 .cv-btn {
-  height: 70px;
-  width: 200px;
+  height: 60px;
+  width: 150px;
   border-radius: 12px;
-  font-size: 1.75em;
+  font-size: 1.25em;
   border: 1px solid grey;
   background: radial-gradient(rgb(236, 207, 242), grey);
 }
 .cv-btn:hover {
   cursor: pointer;
   background: radial-gradient(grey, rgb(236, 207, 242));
+  color: rgb(16, 16, 70);
 }
 
 @media (max-width: 640px) {

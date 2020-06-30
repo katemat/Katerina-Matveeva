@@ -1,9 +1,9 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
 // import "./NavBar/NavBar";
-import { Switch, Route } from "react-router-dom";
-import SingleProject from "./components/SingleProject/SingleProject";
-import MainPage from "./MainPage";
+import { Switch, Route } from 'react-router-dom';
+import SingleProject from './components/SingleProject/SingleProject';
+import MainPage from './MainPage';
 // import Home from "./components/Home/Home";
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
         </Switch>
       </div>
       <footer>
-        &copy;2020 KM
-        <div> enthusiastic and passionate about what I do</div>
+        &copy;2020 developed by Katerina Matveeva
+        <div> Enthusiastic and Passionate about what I do</div>
       </footer>
     </div>
   );

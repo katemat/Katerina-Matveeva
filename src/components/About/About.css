@@ -1,7 +1,7 @@
 .About-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 20px;
+  margin: 30px;
   margin-bottom: 5px;
   margin-top: 10%;
   padding: 70px 20px;
@@ -59,7 +59,12 @@ main p {
     display: block;
     text-align: center;
     margin: 0 auto;
+    font-size: 1em;
   }
+
+  /* .About-newChapter {
+    font-size: 1.2em;
+  } */
 
   aside img {
     max-width: 350px;

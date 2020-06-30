@@ -12,28 +12,25 @@ body {
 
 .App {
   text-align: center;
-  font-family: "Baskervville", serif;
+  font-family: 'Baskervville', serif;
 }
 
 footer {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
   height: 50%;
   width: 100%;
   position: relative;
   bottom: 0;
-  font-size: 20px;
+  font-size: 16px;
   text-align: left;
-  padding: 20px;
+  padding: 10px;
   background: linear-gradient(to right, rgb(195, 180, 198), rgb(244, 242, 242));
-  font-family: "Baskervville", serif;
+  font-family: 'Baskervville', serif;
   box-shadow: 2px -5px 5px lightgrey;
   font-style: italic;
 }
 
 footer div {
   padding-right: 30px;
-  justify-self: right;
   font-style: italic;
 }
 

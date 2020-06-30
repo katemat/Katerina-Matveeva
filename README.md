@@ -14,6 +14,6 @@ You can find the [Live Version Here](http://katerina-matveeva.surge.sh/)
 
 ## Screenshots
 
-![Home Page]('/images/homePage.png')
-![Projects List]('/public/images/projectsList.png')
-![A Project Page]('/public/images/aProject.png')
+![Home Page](/public/images/homePage.png)
+![Projects List](/public/images/projectsList.png)
+![A Project Page](/public/images/aProject.png)

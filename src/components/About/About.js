@@ -30,12 +30,8 @@ function About() {
       <div className="About-newChapter">
         <h3>Learning is my hobby and creating is my passion</h3>
         <p>
-          To become a Software Developer was my dream for a long time and every
-          day I tried to get closer and closer to achieve it. Udemy
-          tutorials,youtube tutorials, reading articles, code challenges ... it
-          was all great but I was missing some structural learning, some proper
-          guidence. That's why at the end of 2019 I made a decision to quit my
-          job and devote all my time to make my dream come true.
+          At the end of 2019 I made a decision to change my career and dive into
+          development world.
         </p>
         <h3>March 2020... New Chapter in my Life Begins</h3>
         <p>

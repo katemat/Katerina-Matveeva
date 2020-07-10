@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.css';
+import ContactForm from '../ContactForm/ContactForm';
 
 function Contact() {
   return (
@@ -20,10 +21,14 @@ function Contact() {
             href="https://www.linkedin.com/in/katerina-matveeva/"
             target="blank"
           >
-            <p>LinkedIn</p>
+            <p>LinkedIn </p>
           </a>
         </div>
-        <div className="contact-links">
+        {/* <p>or send me a message</p> */}
+        {/* <div className="contact-form"> */}
+        <ContactForm />
+        {/* </div> */}
+        {/* <div className="contact-links">
           <a
             href="https://drive.google.com/file/d/1yXSWduAKEAjkrsbcS6tTfXcmaQYeNd6I/view?usp=sharing"
             target="blank"
@@ -40,7 +45,7 @@ function Contact() {
           >
             <i className="fab fa-linkedin-in"></i>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

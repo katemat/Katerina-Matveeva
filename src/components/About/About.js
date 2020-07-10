@@ -17,14 +17,6 @@ function About() {
             I was born in Russia and moved to Australia with my family 5 years
             ago.
           </p>
-          <div className="btn-wrapper">
-            <a
-              href="https://drive.google.com/file/d/1hQRtNkrUFEjs4_O8APZa8QPipd03y4OX/view"
-              target="blank"
-            >
-              <button className="cv-btn">Download CV</button>
-            </a>
-          </div>
         </div>
       </main>
       <div className="About-newChapter">
@@ -71,33 +63,35 @@ function About() {
           I would be happy to join the team that focuse on success, the team who
           put people on first place and aiming to deliver efficient solutions to
           their customers.
-          <h3>Tech Stack</h3>
-          <ul>
-            <li>HTML, CSS</li>
-            <li>JavaScript</li>
-            <li>Ruby</li>
-            <li>Node.js</li>
-            <li>React</li>
-          </ul>
+        </p>
+        <h3>Tech Stack</h3>
+        <ul>
+          <li>HTML, CSS</li>
+          <li>JavaScript</li>
+          <li>Ruby</li>
+          <li>Node.js</li>
+          <li>React</li>
+        </ul>
+        <p>
           I'm excited to dive into new technologies, just mention a few as I
           openned to any exciting opportunities that will give me a chance to
           enchance my skills set, to achieve new goals in my professional
           developement:
-          <ul>
-            <li>Vue</li>
-            <li>Python</li>
-            <li>Cloud Technologies</li>
-          </ul>
         </p>
+        <ul>
+          <li>Vue</li>
+          <li>Python</li>
+          <li>Cloud Technologies</li>
+        </ul>
       </div>
-      {/* <div className="btn-wrapper">
+      <div className="btn-wrapper">
         <a
           href="https://drive.google.com/file/d/1hQRtNkrUFEjs4_O8APZa8QPipd03y4OX/view"
           target="blank"
         >
           <button className="cv-btn">Download CV</button>
         </a>
-      </div> */}
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
-import React from "react";
-import ProjectsList from "../ProjectsList/ProjectsList";
-import "./Projects.css";
+import React from 'react';
+import ProjectsList from '../ProjectsList/ProjectsList';
+import './Projects.css';
 
 function Projects() {
   return (

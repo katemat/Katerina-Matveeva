@@ -1,0 +1,41 @@
+.contact-form {
+  background: rgb(244, 242, 242);
+  font-size: 1.5rem;
+  width: 80%;
+  color: rgb(128, 37, 37);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 2px 3px 5px grey;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-wrapper input,
+.input-wrapper textarea {
+  font-size: 1rem;
+  /* border-radius: 3px; */
+  border: none;
+  margin: 5px 20px;
+}
+
+.message-input {
+  font-family: monospace;
+}
+.button--container button {
+  border-radius: 5px;
+  border: none;
+  background: radial-gradient(rgb(236, 207, 242), grey);
+  margin-bottom: 30px;
+  height: 30px;
+}
+
+.button--container button:hover {
+  cursor: pointer;
+  background: radial-gradient(grey, rgb(236, 207, 242));
+  color: rgb(16, 16, 70);
+}

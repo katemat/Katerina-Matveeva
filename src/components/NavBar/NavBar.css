@@ -7,7 +7,7 @@
   box-shadow: 2px 3px 10px lightgrey;
   background-color: rgb(230, 227, 227);
   border-bottom: 1px solid lightgray;
-  font-family: "Tangerine", cursive;
+  font-family: 'Tangerine', cursive;
   z-index: 1;
 }
 
@@ -18,14 +18,14 @@
   margin: 0;
 }
 .NavBar__logo {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   text-align: left;
 }
 
 .NavBar__logo a {
   color: rgb(62, 61, 61);
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .drawertogglebtn-div {
@@ -47,7 +47,7 @@
   text-decoration: none;
 }
 .NavBar_navigation-items a {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -76,7 +76,7 @@
   transition: 0.4s ease-in-out;
   font-size: 1em;
   padding-left: 3px;
-  padding-right: 10px;
+  padding-right: 15px;
   padding-top: 3px;
 }
 

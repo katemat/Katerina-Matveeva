@@ -51,9 +51,19 @@
   padding-top: 70px;
 }
 
+.contact-offer p {
+  margin: 0;
+}
+
 .linkedin-link {
   margin: 5px;
 }
+
+/* .contact-form {
+  background-color: papayawhip;
+  display: grid;
+  grid-template-raw: repeat (2, 1fr) 2fr;
+} */
 
 @media (max-width: 768px) {
   .contact-offer:first-child {

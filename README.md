@@ -3,7 +3,7 @@ This is my Portfolio-Website where you can check my latest Projects, find out mo
 ---
 
 The website built from scratch using React.
-It was a great practice for me to get familiar with React component Idea.
+It was a great practice for me to get familiar with React component concept.
 I will contue to update my portfilio so stay in touch.
 
 ---

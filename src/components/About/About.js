@@ -86,7 +86,7 @@ function About() {
       </div>
       <div className="btn-wrapper">
         <a
-          href="https://drive.google.com/file/d/1hQRtNkrUFEjs4_O8APZa8QPipd03y4OX/view"
+          href="https://drive.google.com/file/d/1jR8gNUcF5TfHOH8KWwM1Lfa5bTLkPnDP/view?usp=sharing"
           target="blank"
         >
           <button className="cv-btn">Download CV</button>

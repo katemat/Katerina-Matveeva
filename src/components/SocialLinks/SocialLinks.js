@@ -1,12 +1,12 @@
-import React from "react";
-import "../NavBar/NavBar.css";
+import React from 'react';
+import '../NavBar/NavBar.css';
 
 function Links() {
   return (
     <div className="SocialLinks-icons">
       <div className="cv-icon">
         <a
-          href="https://drive.google.com/file/d/1yXSWduAKEAjkrsbcS6tTfXcmaQYeNd6I/view?usp=sharing"
+          href="https://drive.google.com/file/d/1jR8gNUcF5TfHOH8KWwM1Lfa5bTLkPnDP/view?usp=sharing"
           target="blank"
           title="download CV"
         >

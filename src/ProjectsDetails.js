@@ -70,6 +70,19 @@ const ProjectsDetails = [
     username: 'not required',
     password: 'not required',
   },
+  {
+    id: 6,
+    title: 'Reburgulator',
+    image: '/images/reburgulator.png',
+    git: 'https://github.com/katemat/Reburgulator',
+    solution_url: 'https://katemat.github.io/Reburgulator/',
+    description:
+      'Reburgulator - The Project build with React.js. The Project was created to get familiar with ReactJS, practice skills that was learnt during in the class. You can create your own virtual 🍔 Burger, just add toppings from menu items. 🚫 To delete the item (ingredient) just click on that item (inside the burger).',
+    technologies: 'CSS, JSX, React.js ',
+    challenges: 'It was fun Project. ',
+    username: 'not required',
+    password: 'not required',
+  },
 ];
 
 export default ProjectsDetails;

@@ -1,5 +1,5 @@
 .ProjectsList {
-  background: linear-gradient(rgb(244, 240, 240), rgb(204, 166, 211));
+  background: linear-gradient(rgb(244, 240, 240), rgb(18, 24, 111));
   padding-top: 60px;
 }
 
@@ -16,7 +16,7 @@
 .ProjectsList-project-container {
   width: 375px;
   height: 375px;
-  background: linear-gradient(rgb(248, 246, 248), rgb(164, 128, 170));
+  background: linear-gradient(rgb(248, 246, 248), rgb(151, 160, 228));
   border: 2px solid rgb(248, 245, 240);
   border-radius: 15%;
   box-shadow: 5px 5px 20px rgb(71, 71, 78);

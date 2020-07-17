@@ -19,7 +19,7 @@
 
 .linkedin-link {
   text-decoration: none;
-  color: rgb(72, 28, 133);
+  color: rgb(146, 116, 189);
   margin: 0;
 }
 
@@ -34,7 +34,7 @@
   font-size: 2.5rem;
 }
 .contact-links a:hover {
-  color: #2d1894;
+  color: #be76cd;
 }
 
 .contact-offer {
@@ -71,7 +71,7 @@
 .Contact-container {
   position: absolute;
   /* bottom: 0; */
-  background: rgba(0, 0, 0, 0.2);
+  /* background: rgba(0, 0, 0, 0.2); */
   /* color: #f1f1f1; */
   width: 100%;
   padding: 3%;

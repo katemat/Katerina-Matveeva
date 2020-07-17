@@ -13,11 +13,11 @@ code {
 }
 
 html {
-  --scrollbarBG: radial-gradient(rgb(236, 207, 242), grey);
-  --thumbBG: rgb(179, 115, 190);
+  --scrollbarBG: radial-gradient(rgb(188, 197, 247), rgb(170, 171, 203));
+  --thumbBG: rgb(16, 11, 104);
 }
 body::-webkit-scrollbar {
-  width: 11px;
+  width: 10px;
 }
 body {
   scrollbar-width: thin;

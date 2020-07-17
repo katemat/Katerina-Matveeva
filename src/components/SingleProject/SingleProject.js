@@ -1,8 +1,8 @@
-import React from "react";
-import ProjectsDetails from "../../ProjectsDetails";
-import "./SingleProject.css";
+import React from 'react';
+import ProjectsDetails from '../../ProjectsDetails';
+import './SingleProject.css';
 // import Links from "../Links";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 function SingleProject(props = {}) {
   let project = ProjectsDetails[props.match.params.id];
@@ -36,7 +36,7 @@ function SingleProject(props = {}) {
           </div>
           <div>
             <h4>
-              Check the Project Code{" "}
+              Check the Project Code{' '}
               <a href={project.git} target="blank">
                 Here
               </a>
@@ -44,14 +44,14 @@ function SingleProject(props = {}) {
           </div>
           <div>
             <h4>
-              Try the Project Live{" "}
+              Try the Project Live{' '}
               <a href={project.solution_url} target="blank">
                 Here
               </a>
             </h4>
             <p>Please use the following credentials to login:</p>
             <li>
-              {" "}
+              {' '}
               email/username: <strong>{project.username}</strong>
             </li>
             <li>

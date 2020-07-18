@@ -3,11 +3,11 @@ import skillsData from '../../skillsData.js';
 import './Skills.css';
 import Spin from 'react-reveal/Spin';
 
-export default function Skills() {
-  let data = skillsData;
+export default function Skills({ skills }) {
+  // let data = skillsData;
   return (
     <div className="skills-container">
-      {data.map((skill, idx) => {
+      {skills.map((skill, idx) => {
         return (
           <div key={idx} className="skill-wrapper">
             {skill.icon}

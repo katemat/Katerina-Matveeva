@@ -2,8 +2,10 @@ import React from 'react';
 import './About.css';
 import Skills from '../Skills/Skills';
 import Fade from 'react-reveal/Fade';
+import skillsData from '../../skillsData';
 
 function About() {
+  let skills = skillsData;
   return (
     <div id="about" className="About-container">
       <aside>
@@ -49,7 +51,7 @@ function About() {
           </p>
         </Fade>
         <h3>Tech Stack</h3>
-        <Skills />
+        <Skills skills={skills[0]} />
 
         <p>
           I'm excited to dive into new technologies, just mention a few as I
@@ -57,11 +59,7 @@ function About() {
           enchance my skill set, to achieve new goals in my professional
           developement:
         </p>
-        <ul>
-          <li>Vue</li>
-          <li>Python</li>
-          <li>Cloud Technologies</li>
-        </ul>
+        <Skills skills={skills[1]} />
       </div>
       <div className="btn-wrapper">
         <a

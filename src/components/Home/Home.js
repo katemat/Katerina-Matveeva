@@ -1,7 +1,7 @@
 import React from 'react';
 // import "../App.css";
 import './Home.css';
-import sample from './Lines - 5222.mp4';
+import sample from './Animation - 4517.mp4';
 import Fade from 'react-reveal/Fade';
 
 // import "../About/About";

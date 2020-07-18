@@ -20,7 +20,8 @@
     "react-scrollspy": "^3.4.2",
     "react-slideshow-image": "^1.5.3",
     "react-sortable-hoc": "^1.11.0",
-    "react-toggle": "^4.1.1"
+    "react-toggle": "^4.1.1",
+    "reactjs-popup": "^1.5.0"
   },
   "scripts": {
     "deploy": "npm run build; surge build katerina-matveeva.surge.sh",

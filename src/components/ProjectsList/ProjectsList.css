@@ -1,5 +1,5 @@
 .ProjectsList {
-  background: linear-gradient(rgb(244, 240, 240), rgb(18, 24, 111));
+  background: linear-gradient(rgb(244, 240, 240), black);
   padding-top: 60px;
 }
 
@@ -42,6 +42,15 @@
   margin-bottom: 10px;
 }
 
+.ProjectsList-project-image-faded {
+  height: 100%;
+  padding: 10px 0;
+  background: radial-gradient(white, rgb(33, 19, 85));
+}
+.ProjectsList-project-image-faded img {
+  opacity: 0.5;
+  width: 70%;
+}
 @media (max-width: 600px) {
   .ProjectsList-project-container {
     max-width: 300px;

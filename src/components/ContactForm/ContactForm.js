@@ -47,11 +47,8 @@ class ContactForm extends React.Component {
   render() {
     return (
       <form className="contact-form" onSubmit={(e) => this.formSubmit(e)}>
-        <h4>or Send me a message</h4>
+        <h4>Send me a message</h4>
         <div className="input-wrapper">
-          {/* <label className="message-name" htmlFor="message-name">
-            Your Name
-          </label> */}
           <input
             onChange={(e) => this.setState({ name: e.target.value })}
             name="name"
@@ -62,9 +59,6 @@ class ContactForm extends React.Component {
             required
           />
 
-          {/* <label className="message-email" htmlFor="message-email">
-            Your Email
-          </label> */}
           <input
             onChange={(e) => this.setState({ email: e.target.value })}
             name="email"
@@ -74,9 +68,7 @@ class ContactForm extends React.Component {
             required
             value={this.state.email}
           />
-          {/* <label className="message" htmlFor="message-input">
-            Your Message
-          </label> */}
+
           <textarea
             onChange={(e) => this.setState({ message: e.target.value })}
             name="message"

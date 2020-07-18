@@ -47,7 +47,8 @@
 
 @media (max-width: 600px) {
   .contact-form {
-    font-size: 1rem;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
   }
   .button--container button {
     height: 1.5rem;

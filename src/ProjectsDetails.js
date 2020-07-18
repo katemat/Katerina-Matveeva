@@ -50,7 +50,7 @@ const ProjectsDetails = [
     description:
       "This is a group Project. The App was created with the aim to give our beloved items a second life. Using the Trashure Service users can give away for free their Trashure items they don't need anymore or they can get some Trashure from other users",
     technologies:
-      'HTML, CSS, JavaScript, PostgreSQL, Node.js, Express.js; middleware: pg, bcrypt, passport, express-session, method-overide, ejs; Heroku for deployment, version control system: Git; Whimsical for creating storyboards, Trello for keeping track of development',
+      'HTML, CSS, JavaScript, PostgreSQL, Node.js, Express.js; middleware: pg, bcrypt, passport, express-session, method-overide, ejs; Heroku,  Git; Whimsical, Trello',
     challenges:
       "The main key takeaway from this group Project is 'working in a Team is completly different to working solo'. Got good practice collaboratting with the team, coordinating your work according to team workflow, commit often to Git with proper comments. In general, this Project taught me a lot how to work in a Team of Programmers",
     username: 'user',

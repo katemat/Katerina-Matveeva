@@ -2,6 +2,7 @@
   position: relative;
   text-align: center;
   color: white;
+  height: fit-content;
 }
 
 .responsive {
@@ -14,28 +15,25 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 100%;
+  padding: 3%;
+  margin: 50px auto;
+  z-index: -3;
   transform: translate(-50%, -50%);
 }
 
-.linkedin-link {
+/* .linkedin-link {
   text-decoration: none;
   color: rgb(146, 116, 189);
   margin: 0;
-}
+} */
 
-.contact-links {
+/* .contact-links {
   transition: all ease 0.3s;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
-}
-
-.contact-links a {
-  font-size: 2.5rem;
-}
-.contact-links a:hover {
-  color: #be76cd;
-}
+} */
 
 .contact-offer {
   font-size: 2.5rem;
@@ -44,7 +42,7 @@
   text-shadow: 2px 2px 3px rgb(73, 72, 72);
   margin: 0;
   padding: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   white-space: pre;
 }
 .contact-offer:first-child {
@@ -53,10 +51,6 @@
 
 .contact-offer p {
   margin: 0;
-}
-
-.linkedin-link {
-  margin: 5px;
 }
 
 #myVideo-contact {
@@ -68,44 +62,35 @@
   z-index: -5;
 }
 
-.Contact-container {
-  position: absolute;
-  /* bottom: 0; */
-  /* background: rgba(0, 0, 0, 0.2); */
-  /* color: #f1f1f1; */
-  width: 100%;
-  padding: 3%;
-  margin: 50px auto;
-  z-index: -3;
-  /* overflow: hidden; */
-}
-/* .contact-form {
-  background-color: papayawhip;
-  display: grid;
-  grid-template-raw: repeat (2, 1fr) 2fr;
-} */
-
 @media (max-width: 768px) {
   .contact-offer:first-child {
     padding-top: 30px;
   }
   .contact-offer {
-    font-size: 1.75rem;
-    /* margin-top: 0; */
-    padding: 10px;
+    font-size: 1.5rem;
+    padding: 5px;
   }
 }
 
 @media (max-width: 640px) {
   .contact-offer:first-child {
-    padding-top: 50px;
+    padding-top: 10px;
   }
   .contact-offer {
     font-size: 1rem;
-    /* margin-top: 0; */
     padding: 5px;
   }
-  .contact-links a {
-    font-size: 1rem;
+
+  #myVideo-contact {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    min-height: 80%;
+    z-index: -5;
+  }
+  .Contact-container {
+    margin-top: 10px;
+    margin-bottom: 0;
   }
 }

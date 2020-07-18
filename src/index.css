@@ -13,8 +13,8 @@ code {
 }
 
 html {
-  --scrollbarBG: radial-gradient(rgb(188, 197, 247), rgb(170, 171, 203));
-  --thumbBG: rgb(16, 11, 104);
+  --scrollbarBG: radial-gradient(rgb(245, 246, 247), rgb(194, 195, 210));
+  --thumbBG: rgb(12, 11, 12);
 }
 body::-webkit-scrollbar {
   width: 10px;

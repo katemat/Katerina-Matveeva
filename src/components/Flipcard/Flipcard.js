@@ -3,7 +3,11 @@ import React, { useState } from 'react';
 export default function Flipcard({ flipcard }) {
   const [flip, setFlip] = useState(false);
   return (
-    <div className="flip-wrapper" onMouseOver={() => setFlip(!flip)}>
+    <div
+      className="flip-wrapper"
+      onMouseEnter={() => setFlip(!flip)}
+      onMouseLeave={() => setFlip(!flip)}
+    >
       <h2>{flipcard.title}</h2>
       {flip ? (
         <div className="ProjectsList-project-image-faded">

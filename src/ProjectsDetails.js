@@ -50,7 +50,7 @@ const ProjectsDetails = [
     description:
       "This is a group Project. The App was created with the aim to give our beloved items a second life. Using the Trashure Service users can give away for free their Trashure items they don't need anymore or they can get some Trashure from other users",
     technologies:
-      'HTML, CSS, JavaScript, PostgreSQL, Node.js, Express.js; middleware: pg, bcrypt, passport, express-session, method-overide, ejs; Heroku,  Git; Whimsical, Trello',
+      'HTML, CSS, JavaScript, PostgreSQL, Node.js, Express.js; middleware: pg, bcrypt, passport, express-session, method-overide, ejs; Heroku',
     challenges:
       "The main key takeaway from this group Project is 'working in a Team is completly different to working solo'. Got good practice collaboratting with the team, coordinating your work according to team workflow, commit often to Git with proper comments. In general, this Project taught me a lot how to work in a Team of Programmers",
     username: 'user',
@@ -63,8 +63,8 @@ const ProjectsDetails = [
     git: 'https://github.com/katemat/final-project',
     solution_url: 'http://color-palette-me.surge.sh/',
     description:
-      'Color Palette Creator - The Project build with React.js. The User can Create new Color Palette and save it in Local Storage. The User can also copy to clipboard any color code from saved palettes to use it later for own purposes',
-    technologies: 'HTML, CSS, JSX, React.js ',
+      'Color Palette Creator - The Project build with ReactJS. The User can Create new Color Palette and save it in Local Storage. The User can also copy to clipboard any color code from saved palettes to use it later for own purposes',
+    technologies: 'HTML, CSS, JSX, ReactJS ',
     challenges:
       'The main challenge was to get working App within limited timeframe, taking into account that it was a first real React project with broad spectrum of functionality. Have to learn on the go. Great experience anyway!',
     username: 'not required',
@@ -78,7 +78,7 @@ const ProjectsDetails = [
     solution_url: 'https://katemat.github.io/Reburgulator/',
     description:
       'Reburgulator - The Project build with React.js. The Project was created to get familiar with ReactJS, practice skills that was learnt during in the class. You can create your own virtual 🍔 Burger, just add toppings from menu items. 🚫 To delete the item (ingredient) just click on that item (inside the burger).',
-    technologies: 'CSS, JSX, React.js ',
+    technologies: 'CSS, JSX, ReactJS ',
     challenges: 'It was fun Project. ',
     username: 'not required',
     password: 'not required',

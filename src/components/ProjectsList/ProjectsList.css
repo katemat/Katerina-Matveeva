@@ -31,26 +31,28 @@
   font-weight: bold;
 }
 
-.ProjectsList-project-image {
-  height: 90%;
-}
-
-.ProjectsList-project-image img {
-  width: 85%;
+.ProjectsList-project-box {
   height: 70%;
-  border-radius: 3%;
-  margin-bottom: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+.ProjectsList-project-box .project-overlay {
+  height: 100%;
+  background: radial-gradient(white, rgb(33, 19, 85));
+  text-align: center;
+  padding: 10%;
+  border-radius: 5px;
+  display: block;
+  transition: all ease-out 0.3s;
+  opacity: 0;
+  color: rgb(107, 60, 60);
+  font-size: 1.5rem;
+}
+.ProjectsList-project-box:hover .project-overlay {
+  opacity: 0.95;
 }
 
-.ProjectsList-project-image-faded {
-  height: 100%;
-  padding: 10px 0;
-  background: radial-gradient(white, rgb(33, 19, 85));
-}
-.ProjectsList-project-image-faded img {
-  opacity: 0.5;
-  width: 70%;
-}
 @media (max-width: 600px) {
   .ProjectsList-project-container {
     max-width: 300px;

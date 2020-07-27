@@ -75,9 +75,10 @@
 @media (max-width: 640px) {
   .Home-intro {
     padding: 0;
+    display: block;
   }
   .Home-intro > h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: left;
     float: left;
     padding: 2%;

@@ -71,6 +71,9 @@
   z-index: -3;
   /* overflow: hidden; */
 }
+.chevron-down {
+  margin-top: 57vh;
+}
 
 @media (max-width: 640px) {
   .Home-intro {

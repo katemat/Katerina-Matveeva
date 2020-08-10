@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Home.css';
 import sample from './Animation - 4517.mp4';
 import Fade from 'react-reveal/Fade';
@@ -19,7 +18,7 @@ export default function Home() {
         <Fade right>
           <h2>Hi, I'm Katerina</h2>
         </Fade>
-        <Fade bottom cascade>
+        <Fade bottom left cascade>
           <div className="Home-intro-div">
             <p>Full Stack Developer</p>
             <p>Creative problem solver, team player and tech enthusiast</p>

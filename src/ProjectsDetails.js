@@ -1,14 +1,14 @@
 const ProjectsDetails = [
   {
     id: 1,
-    title: 'ATM - GA23',
-    image: '/images/atm-ga23.png',
-    git: 'https://github.com/katemat/ATM-GA23',
-    solution_url: 'https://katemat.github.io/ATM-GA23/',
+    title: 'COVID-19 Tracker',
+    image: '/images/mainPage.png',
+    git: 'https://github.com/katemat/COVID-19-Tracker',
+    solution_url: 'https://covid-19-tracker-f5fac.web.app/',
     description:
-      'This is one of my project that I created to practice some skills that I was taught in class, such as DOM manipulation',
-    technologies: 'HTML, CSS, Vanilla Javascript',
-    challenges: 'great experience using CSS and DOM manipulation',
+      'React App Project, live tracker of COVID-19 cases (incliding recovered and number of deaths) worldwide and in individual countries ',
+    technologies: 'CSS, React.js, Material UI, Firebase, APIs',
+    challenges: 'great practice of using React Hooks',
     username: 'not required',
     password: 'not required',
   },

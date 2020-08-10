@@ -17,7 +17,7 @@
   width: 375px;
   height: 375px;
   background: linear-gradient(rgb(248, 246, 248), rgb(151, 160, 228));
-  border: 2px solid rgb(248, 245, 240);
+  border: 1px solid rgb(248, 245, 240);
   border-radius: 15%;
   box-shadow: 5px 5px 20px rgb(71, 71, 78);
   margin: 10px auto;
@@ -39,7 +39,7 @@
 }
 .ProjectsList-project-box .project-overlay {
   height: 100%;
-  background: radial-gradient(white, rgb(33, 19, 85));
+  background: radial-gradient(rgb(244, 240, 240), black);
   text-align: center;
   padding: 10%;
   border-radius: 5px;

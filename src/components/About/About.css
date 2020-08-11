@@ -48,13 +48,16 @@ main h2 {
   width: 150px;
   border-radius: 12px;
   font-size: 1.25em;
-  border: 1px solid grey;
-  background: radial-gradient(rgb(236, 207, 242), grey);
+  border: none;
+  /* border: 1px solid grey; */
+  background: radial-gradient(rgb(244, 240, 240), rgb(24, 28, 49));
+  /* background: radial-gradient(rgb(236, 207, 242), grey); */
 }
 .cv-btn:hover {
   cursor: pointer;
-  background: radial-gradient(grey, rgb(236, 207, 242));
-  color: rgb(16, 16, 70);
+  background: radial-gradient(rgb(24, 28, 49), rgb(244, 240, 240));
+  color: rgb(249, 249, 250);
+  border: 1px solid grey;
 }
 
 @media (max-width: 640px) {

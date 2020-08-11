@@ -1,5 +1,4 @@
 import React from 'react';
-import skillsData from '../../skillsData.js';
 import './Skills.css';
 import Spin from 'react-reveal/Spin';
 

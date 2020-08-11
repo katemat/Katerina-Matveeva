@@ -16,9 +16,10 @@
 .ProjectsList-project-container {
   width: 375px;
   height: 375px;
-  background: linear-gradient(rgb(248, 246, 248), rgb(151, 160, 228));
-  border: 1px solid rgb(248, 245, 240);
-  border-radius: 15%;
+  background: linear-gradient(rgb(248, 246, 248), rgb(24, 28, 49));
+  /* background: linear-gradient(rgb(248, 246, 248), rgb(151, 160, 228)); */
+  /* border: 0.5px solid rgb(248, 245, 240); */
+  border-radius: 25px;
   box-shadow: 5px 5px 20px rgb(71, 71, 78);
   margin: 10px auto;
   cursor: pointer;
@@ -35,27 +36,31 @@
   height: 70%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 90%;
 }
+
 .ProjectsList-project-box .project-overlay {
   height: 100%;
-  background: radial-gradient(rgb(244, 240, 240), black);
+  background: radial-gradient(rgb(244, 240, 240), rgb(24, 28, 49));
   text-align: center;
   padding: 10%;
   border-radius: 5px;
   display: block;
   transition: all ease-out 0.3s;
   opacity: 0;
-  color: rgb(107, 60, 60);
+  color: rgb(40, 6, 230);
   font-size: 1.5rem;
 }
 .ProjectsList-project-box:hover .project-overlay {
   opacity: 0.95;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 990px) {
   .ProjectsList-project-container {
     max-width: 300px;
     max-height: 270px;
+  }
+  .ProjectsList-project-box .project-overlay {
+    font-size: 1rem;
   }
 }

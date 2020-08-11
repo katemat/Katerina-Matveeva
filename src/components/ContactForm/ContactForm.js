@@ -47,7 +47,7 @@ class ContactForm extends React.Component {
   render() {
     return (
       <form className="contact-form" onSubmit={(e) => this.formSubmit(e)}>
-        <h4>Send me a message</h4>
+        <h4>Send me a new message</h4>
         <div className="input-wrapper">
           <input
             onChange={(e) => this.setState({ name: e.target.value })}

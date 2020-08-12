@@ -3,7 +3,6 @@ import './Contact.css';
 // import ContactForm from '../ContactForm/ContactForm';
 import sample2 from './Animation - 4519.mp4';
 import LightSpeed from 'react-reveal/LightSpeed';
-import Fade from 'react-reveal/Fade';
 import Spin from 'react-reveal/Spin';
 
 function Contact() {
@@ -12,11 +11,6 @@ function Contact() {
       <video autoPlay muted loop id="myVideo-contact">
         <source src={sample2} type="video/mp4"></source>
       </video>
-      {/* <img
-        className="responsive"
-        src="/lauren-mancke-aOC7TSLb1o8-unsplash.jpg"
-        alt="contact me"
-      /> */}
 
       <div className="Contact-container">
         <LightSpeed left cascade>

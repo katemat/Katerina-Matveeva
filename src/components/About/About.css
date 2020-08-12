@@ -6,7 +6,6 @@
   margin-bottom: 5px;
   margin-top: 10%;
   padding: 60px 20px;
-  /* background-color: lightgray; */
   z-index: 3;
 }
 
@@ -30,12 +29,19 @@ main h2 {
   font-style: italic;
 }
 
-/* main p {
+main p {
   font-size: 1.5em;
   padding-left: 30px;
   padding-right: 10px;
   text-align: left;
-} */
+}
+
+.about__tech-stack {
+  background-color: rgb(244, 240, 240);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  margin: 15px auto;
+  padding: 10px;
+}
 
 .btn-wrapper {
   grid-column: 1 / -1;
@@ -43,22 +49,20 @@ main h2 {
   padding-right: 10px;
 }
 
-.cv-btn {
+/* .cv-btn {
   height: 60px;
   width: 150px;
   border-radius: 12px;
   font-size: 1.25em;
   border: none;
-  /* border: 1px solid grey; */
   background: radial-gradient(rgb(244, 240, 240), rgb(24, 28, 49));
-  /* background: radial-gradient(rgb(236, 207, 242), grey); */
 }
 .cv-btn:hover {
   cursor: pointer;
   background: radial-gradient(rgb(24, 28, 49), rgb(244, 240, 240));
   color: rgb(249, 249, 250);
   border: 1px solid grey;
-}
+} */
 
 @media (max-width: 640px) {
   .About-container {
@@ -68,27 +72,16 @@ main h2 {
     font-size: 1em;
   }
 
-  /* .About-newChapter {
-    font-size: 1.2em;
-  } */
-
   aside img {
     max-width: 350px;
     height: 300px;
   }
-  .cv-btn {
+  /* .cv-btn {
     height: 50px;
     width: 150px;
     border-radius: 12px;
     font-size: 1.25em;
     border: 1px solid grey;
     background: radial-gradient(rgb(236, 207, 242), grey);
-  }
+  } */
 }
-
-/* @media (max-width: 800px) {
-  .About-container {
-    display: block;
-    text-align: center;
-  }
-} */

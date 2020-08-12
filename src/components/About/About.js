@@ -16,15 +16,19 @@ function About() {
       <main>
         <Fade right>
           <h1>Learning is my hobby and creating is my passion</h1>
+          <p>
+            I am a creative problem-solver, have a curious mind and treat
+            learning as a lifelong journey.{' '}
+          </p>
         </Fade>
       </main>
 
       <div className="About-newChapter">
         <Fade left>
-          <p>
+          {/* <p>
             I am a creative problem-solver, have a curious mind and treat
             learning as a lifelong journey.{' '}
-          </p>
+          </p> */}
           <p>
             I see my main mission as a Software Developer is to deliver
             efficient solutions to customers. I’m driven to bring a long lasting
@@ -33,7 +37,7 @@ function About() {
             passionate team.
           </p>
 
-          <p>
+          {/* <p>
             I am highly efficient at solving problems and providing workflow
             solutions to deliver the best possible outcome.
           </p>
@@ -43,16 +47,17 @@ function About() {
             focused team player that collaborates for positive and healthy
             environment, seeking challenges and oppotunities to grow and
             improve.
-          </p>
+          </p> */}
           <p>
             I would be happy to join the team that focuse on success, the team
             who put people on first place and aiming to deliver efficient
             solutions to their customers.
           </p>
         </Fade>
-        <h3>Tech Stack</h3>
-        <Skills skills={skills[0]} />
-
+        <div className="about__tech-stack">
+          <h3>Tech Stack</h3>
+          <Skills skills={skills[0]} />
+        </div>
         <p>
           I'm excited to dive into new technologies, just mention a few as I
           opened to any exciting opportunities that will give me a chance to
@@ -61,14 +66,14 @@ function About() {
         </p>
         <Skills skills={skills[1]} />
       </div>
-      <div className="btn-wrapper">
+      {/* <div className="btn-wrapper">
         <a
           href="https://drive.google.com/file/d/1jR8gNUcF5TfHOH8KWwM1Lfa5bTLkPnDP/view?usp=sharing"
           target="blank"
         >
           <button className="cv-btn">Download CV</button>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }

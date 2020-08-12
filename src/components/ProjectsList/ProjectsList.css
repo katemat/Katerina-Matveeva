@@ -49,13 +49,17 @@
   transition: all ease-out 0.3s;
   opacity: 0;
   color: rgb(40, 6, 230);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .ProjectsList-project-box:hover .project-overlay {
   opacity: 0.95;
 }
 
-@media (max-width: 990px) {
+.project-credentials {
+  color: maroon;
+}
+
+@media (max-width: 880px) {
   .ProjectsList-project-container {
     max-width: 300px;
     max-height: 270px;

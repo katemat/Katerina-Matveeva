@@ -5,28 +5,23 @@
   position: relative;
 }
 
-/* .motto {
-  font-family: 'Baskervville', serif;
-  font-size: 3vw;
-  font-weight: lighter;
-  color: rgb(116, 114, 114);
-  text-shadow: 5px 5px 8px rgb(196, 193, 193);
-  padding-top: 80px;
-  margin: 0 auto;
-  text-align: center;
-} */
-
 .Home-intro {
-  position: relative;
+  position: absolute;
   top: 30px;
   left: 10%;
   color: rgb(119, 118, 118);
   text-shadow: 5px 5px 8px rgb(218, 214, 214);
+  background: rgba(0, 0, 0, 0.2);
   justify-content: left;
   font-size: 1.5rem;
   text-align: left;
   text-shadow: 1px 1px 1px white;
+  width: 80%;
+  padding: 3%;
+  margin: 50px auto;
+  z-index: -3;
 }
+
 .Home-intro-div {
   width: 400px;
   margin-top: 30px;
@@ -36,43 +31,16 @@
   font-size: 1.75rem;
 }
 
-/* @media (max-width: 768px) {
-  .Home-intro-div {
-    font-size: 1.25rem;
-  }
-}
-
-@media (max-width: 882px) {
-  .Home-intro-div {
-    font-size: 1.35rem;
-  }
-} */
-
 /* video background */
 #myVideo {
   position: relative;
   right: 0;
   bottom: 0;
-  /* min-width: 100vw;
-  min-height: 100%; */
   min-width: 100%;
   min-height: 100vh;
   background-size: cover;
   z-index: -5;
-}
-.Home-intro {
-  position: absolute;
-  /* bottom: 0; */
-  background: rgba(0, 0, 0, 0.2);
-  /* color: #f1f1f1; */
-  width: 100%;
-  padding: 3%;
-  margin: 50px auto;
-  z-index: -3;
-  /* overflow: hidden; */
-}
-.chevron-down {
-  margin-top: 57vh;
+  opacity: 0.8;
 }
 
 @media (max-width: 640px) {

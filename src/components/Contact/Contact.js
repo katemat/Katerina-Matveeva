@@ -1,8 +1,8 @@
 import React from 'react';
 import './Contact.css';
-import ContactForm from '../ContactForm/ContactForm';
+// import ContactForm from '../ContactForm/ContactForm';
 import sample2 from './Animation - 4519.mp4';
-import Popup from 'reactjs-popup';
+import LightSpeed from 'react-reveal/LightSpeed';
 
 function Contact() {
   return (
@@ -16,9 +16,37 @@ function Contact() {
         alt="contact me"
       /> */}
       <div className="Contact-container">
-        <p className="contact-offer">Want to share ideas or has an offer</p>
-        <div className="contact-offer">I'd love to hear from you</div>
-        <ContactForm />
+        <LightSpeed left cascade>
+          <div className="contact-offer">
+            <h4>It's always a pleasure for me to meet new people</h4>
+            <h4>Want to share ideas or has an offer</h4>
+            <h4>I'm happy to have a chat</h4>
+          </div>
+        </LightSpeed>
+        {/* <div className="contact-offer">Drop me a line</div> */}
+        <div className="contact__links">
+          <div className="email">
+            <a href="mailto:katmatveeva6@gmail.com" title="send email">
+              📮
+            </a>
+          </div>
+          <div className="linkedin">
+            <a
+              href="https://www.linkedin.com/in/katerina-matveeva/"
+              target="blank"
+              title="linkedin"
+            >
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <div className="github">
+            <a href="https://github.com/katemat" target="blank" title="github">
+              <i className="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        {/* <ContactForm /> */}
       </div>
     </div>
   );

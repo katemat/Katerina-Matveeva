@@ -10,7 +10,7 @@ const ProjectsDetails = [
     technologies: 'CSS, React.js, Material UI, Firebase, APIs',
     challenges: 'great practice of using React Hooks',
     username: 'not required',
-    password: 'not required',
+    password: null,
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const ProjectsDetails = [
     challenges:
       'One of the challenge was to check winning combinations. Was a good practice of DOM manipulating and CSS usage',
     username: 'not required',
-    password: 'not required',
+    password: null,
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const ProjectsDetails = [
     description:
       "This is my First Full-Stack Project. 'Stitch by Stith' is a Sinatra app, aiming to help cross-stitchers to pick the next project based on our collection of finished designs. The App is a great resource to share your finished cross stitch designs photos.",
     technologies:
-      'HTML, CSS, Javascript, Sinatra framework, Ruby, PostgreSQL, Cloudinary for uploading images, Heroku platform for deployment',
+      'HTML, CSS, Javascript, Sinatra, Ruby, PostgreSQL, Cloudinary, Heroku',
     challenges:
       'One of the challenge was to implement upload images to Cloudinary. Enjoyed every second of this project as it is my favourite combination of hobbies: cross stitching and coding',
     username: 'user@gmail.com',
@@ -50,7 +50,7 @@ const ProjectsDetails = [
     description:
       "This is a group Project. The App was created with the aim to give our beloved items a second life. Using the Trashure Service users can give away for free their Trashure items they don't need anymore or they can get some Trashure from other users",
     technologies:
-      'HTML, CSS, JavaScript, PostgreSQL, Node.js, Express.js; middleware: pg, bcrypt, passport, express-session, method-overide, ejs; Heroku',
+      'HTML, CSS, JavaScript, PostgreSQL, Node.js, Express.js, Heroku',
     challenges:
       "The main key takeaway from this group Project is 'working in a Team is completly different to working solo'. Got good practice collaboratting with the team, coordinating your work according to team workflow, commit often to Git with proper comments. In general, this Project taught me a lot how to work in a Team of Programmers",
     username: 'user',
@@ -68,7 +68,7 @@ const ProjectsDetails = [
     challenges:
       'The main challenge was to get working App within limited timeframe, taking into account that it was a first real React project with broad spectrum of functionality. Have to learn on the go. Great experience anyway!',
     username: 'not required',
-    password: 'not required',
+    password: null,
   },
   {
     id: 6,
@@ -81,7 +81,7 @@ const ProjectsDetails = [
     technologies: 'CSS, JSX, ReactJS ',
     challenges: 'It was fun Project. ',
     username: 'not required',
-    password: 'not required',
+    password: null,
   },
 ];
 

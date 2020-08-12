@@ -11,7 +11,7 @@ export default function Skills({ skills }) {
           <div key={idx} className="skill-wrapper">
             {skill.icon}
             <Spin>
-              <p className="skill-title">{skill.title}</p>
+              <div className="skill-title">{skill.title}</div>
             </Spin>
           </div>
         );

@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 // import "./NavBar/NavBar";
 import { Switch, Route } from 'react-router-dom';
-import SingleProject from './components/SingleProject/SingleProject';
+// import SingleProject from './components/SingleProject/SingleProject';
 import MainPage from './MainPage';
 // import Home from "./components/Home/Home";
 
@@ -14,11 +14,11 @@ function App() {
           <Route exact path="/" render={() => <MainPage />} />
           {/* <Route exact path="/" render={() => <Home />} /> */}
 
-          <Route
+          {/* <Route
             exact
             path="/:id"
             render={(props) => <SingleProject {...props} />}
-          />
+          /> */}
         </Switch>
       </div>
       <footer>

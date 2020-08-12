@@ -3,6 +3,8 @@ import './Contact.css';
 // import ContactForm from '../ContactForm/ContactForm';
 import sample2 from './Animation - 4519.mp4';
 import LightSpeed from 'react-reveal/LightSpeed';
+import Fade from 'react-reveal/Fade';
+import Spin from 'react-reveal/Spin';
 
 function Contact() {
   return (
@@ -15,6 +17,7 @@ function Contact() {
         src="/lauren-mancke-aOC7TSLb1o8-unsplash.jpg"
         alt="contact me"
       /> */}
+
       <div className="Contact-container">
         <LightSpeed left cascade>
           <div className="contact-offer">
@@ -24,26 +27,37 @@ function Contact() {
           </div>
         </LightSpeed>
         {/* <div className="contact-offer">Drop me a line</div> */}
+
         <div className="contact__links">
-          <div className="email">
-            <a href="mailto:katmatveeva6@gmail.com" title="send email">
-              📮
-            </a>
-          </div>
-          <div className="linkedin">
-            <a
-              href="https://www.linkedin.com/in/katerina-matveeva/"
-              target="blank"
-              title="linkedin"
-            >
-              <i className="fab fa-linkedin-in"></i>
-            </a>
-          </div>
-          <div className="github">
-            <a href="https://github.com/katemat" target="blank" title="github">
-              <i className="fab fa-github"></i>
-            </a>
-          </div>
+          <Spin>
+            <div className="email">
+              <a href="mailto:katmatveeva6@gmail.com" title="send email">
+                📮
+              </a>
+            </div>
+          </Spin>
+          <Spin>
+            <div className="linkedin">
+              <a
+                href="https://www.linkedin.com/in/katerina-matveeva/"
+                target="blank"
+                title="linkedin"
+              >
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </Spin>
+          <Spin>
+            <div className="github">
+              <a
+                href="https://github.com/katemat"
+                target="blank"
+                title="github"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+            </div>
+          </Spin>
         </div>
 
         {/* <ContactForm /> */}

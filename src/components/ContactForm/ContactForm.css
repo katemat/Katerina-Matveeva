@@ -34,16 +34,18 @@
 .button--container button {
   border-radius: 5px;
   border: none;
-  background: radial-gradient(rgb(244, 240, 240), rgb(24, 28, 49));
+  background: radial-gradient(rgb(244, 240, 240), rgb(159, 73, 159));
   /* background: radial-gradient(rgb(236, 207, 242), grey); */
   margin: 1.5em;
-  height: 2.5rem;
+  padding: 5px;
+  height: 3rem;
+  font-size: 1.25rem;
   cursor: pointer;
 }
 
 .button--container button:hover {
   cursor: pointer;
-  background: radial-gradient(rgb(24, 28, 49), rgb(244, 240, 240));
+  background: radial-gradient(rgb(159, 73, 159), rgb(244, 240, 240));
   /* background: radial-gradient(grey, rgb(236, 207, 242)); */
   color: rgb(16, 16, 70);
 }

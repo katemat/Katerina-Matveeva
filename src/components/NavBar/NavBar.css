@@ -58,7 +58,8 @@
 .NavBar_navigation-items a:hover,
 .NavBar_navigation-items a:active {
   color: rgb(128, 37, 37);
-  text-shadow: 2px 3px 5px rgb(117, 117, 228);
+  /* text-shadow: 2px 3px 5px rgb(117, 117, 228); */
+  text-shadow: 2px 3px 5px rgb(112, 32, 32);
 }
 
 .SocialLinks-icons {

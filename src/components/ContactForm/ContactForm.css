@@ -12,6 +12,7 @@
 
 .contact-form h4 {
   padding-top: 20px;
+  text-shadow: none;
 }
 
 .input-wrapper {
@@ -34,7 +35,7 @@
 .button--container button {
   border-radius: 5px;
   border: none;
-  background: radial-gradient(rgb(244, 240, 240), rgb(159, 73, 159));
+  background: radial-gradient(rgb(244, 240, 240), rgb(112, 32, 32));
   /* background: radial-gradient(rgb(236, 207, 242), grey); */
   margin: 1.5em;
   padding: 5px;
@@ -45,9 +46,10 @@
 
 .button--container button:hover {
   cursor: pointer;
-  background: radial-gradient(rgb(159, 73, 159), rgb(244, 240, 240));
+  background: radial-gradient(rgb(112, 32, 32), rgb(244, 240, 240));
   /* background: radial-gradient(grey, rgb(236, 207, 242)); */
-  color: rgb(16, 16, 70);
+  color: white;
+  border: 1px solid maroon;
 }
 
 @media (max-width: 600px) {

@@ -7,7 +7,7 @@
 
 .Home-intro {
   position: absolute;
-  top: 30px;
+  top: 80px;
   left: 10%;
   color: rgb(119, 118, 118);
   text-shadow: 5px 5px 8px rgb(218, 214, 214);
@@ -17,7 +17,6 @@
   text-align: left;
   text-shadow: 1px 1px 1px white;
   width: 80%;
-  padding: 3%;
   margin: 50px auto;
   z-index: -3;
 }
@@ -43,25 +42,36 @@
   opacity: 0.8;
 }
 
-@media (max-width: 640px) {
+.Home-intro h1 {
+  display: block;
+  padding-left: 20px;
+}
+.Home-intro h2,
+p {
+  padding-left: 20px;
+}
+@media (max-width: 990px) {
   .Home-intro {
     padding: 0;
-    display: block;
+    /* display: block; */
   }
-  .Home-intro > h1 {
+  .Home-intro h1 {
     font-size: 1.8rem;
     text-align: left;
-    float: left;
-    padding: 2%;
+    margin-bottom: 0;
+    /* float: left; */
+    /* padding: 1rem; */
   }
-  .Home-intro > h2 {
+  .Home-intro h2 {
     font-size: 1.75rem;
+    margin-top: 0;
   }
 
   .Home-intro-div {
-    width: 300px;
+    width: 100%;
     text-align: left;
     margin-top: 30px;
     font-size: 1.5rem;
+    padding-bottom: 20px;
   }
 }

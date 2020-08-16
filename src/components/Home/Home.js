@@ -1,7 +1,7 @@
-import React from 'react';
-import './Home.css';
-import sample from './Animation - 4517.mp4';
-import Fade from 'react-reveal/Fade';
+import React from 'react'
+import './Home.css'
+import sample from './Animation - 4517.mp4'
+import Fade from 'react-reveal/Fade'
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
       <div className="Home-intro">
         <Fade right>
           <h1>Making great things possible</h1>
+          <br></br>
         </Fade>
 
         <Fade right>
@@ -26,5 +27,5 @@ export default function Home() {
         </Fade>
       </div>
     </div>
-  );
+  )
 }

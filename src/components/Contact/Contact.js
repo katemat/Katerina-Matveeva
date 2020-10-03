@@ -1,16 +1,16 @@
-import React from 'react';
-import './Contact.css';
-import ContactForm from '../ContactForm/ContactForm';
-import sample2 from './Animation - 4519.mp4';
-import LightSpeed from 'react-reveal/LightSpeed';
-import Spin from 'react-reveal/Spin';
+import React from 'react'
+import './Contact.css'
+import ContactForm from '../ContactForm/ContactForm'
+// import sample2 from './Animation - 4519.mp4';
+import LightSpeed from 'react-reveal/LightSpeed'
+import Spin from 'react-reveal/Spin'
 
 function Contact() {
   return (
     <div id="contact" className="Contact">
-      <video autoPlay muted loop id="myVideo-contact">
+      {/* <video autoPlay muted loop id="myVideo-contact">
         <source src={sample2} type="video/mp4"></source>
-      </video>
+      </video> */}
 
       <div className="Contact-container">
         <div className="contact-offer">
@@ -50,7 +50,7 @@ function Contact() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Contact;
+export default Contact

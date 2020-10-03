@@ -4,7 +4,7 @@ const ProjectsDetails = [
     title: 'COVID-19 Tracker',
     image: '/images/mainPage.png',
     git: 'https://github.com/katemat/COVID-19-Tracker',
-    solution_url: 'https://covid-19-tracker-f5fac.web.app/',
+    solution_url: 'http://covid19-trackerlive.surge.sh/',
     description:
       'React App Project, live tracker of COVID-19 cases (incliding recovered and number of deaths) worldwide and in individual countries ',
     technologies: 'CSS, React.js, Material UI, Firebase, APIs',
@@ -83,6 +83,6 @@ const ProjectsDetails = [
     username: 'not required',
     password: null,
   },
-];
+]
 
-export default ProjectsDetails;
+export default ProjectsDetails
